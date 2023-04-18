@@ -1,0 +1,53 @@
+.profildiv {
+    background-color:rgba(230, 158, 90, 0.798)
+}
+
+body {
+   background-color: #FFB266;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.bilder {
+    background-color: rgba(237, 132, 34, 0.733)
+    
+    
+
+}
+
+
+.h4tekst {
+    color: rgb(0, 0, 0);
+}
+.c1 {
+    color: rgb(255, 0, 0);
+}
+.c2 {
+    color: rgb(255, 111, 0);
+}
+.c3 {
+    color: rgb(255, 255, 0);
+}
+.c4 {
+    color: rgb(13, 255, 0);
+}
+.c5 {
+    color: rgb(0, 255, 213);
+}
+.c6 {
+    color: rgb(13, 0, 255);
+}
+.c7 {
+    color: rgb(132, 0, 255);
+}
+.c8 {
+    color: rgb(255, 0, 157);
+}

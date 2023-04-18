@@ -42,7 +42,6 @@ $terningkast = rand (1,6);
 echo "Du fikk $terningkast på terningen. <br>";
 echo "Det er";
 
-$terningbilde = array(dice-six-faces-one);
 
 if($terningkast == 1) {
     echo " VELDIG! dårlig";
@@ -67,7 +66,7 @@ if($terningkast == 1) {
 #oppgave 10.11
 
 $måned = date("m");
-echo "det er $måned.<dr>";
+echo "$måned.<br>";
 
 if($måned == 1) {
     echo "Januar";
@@ -94,6 +93,22 @@ if($måned == 1) {
 } else if ($måned == 12) {
     echo "desember";
 }
+
+#oppgave 10.12
+
+$år = ("Y");
+
+$fødselsdag = 2006
+
+
+
+
+
+
+
+
+
+
 
 
 
