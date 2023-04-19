@@ -62,8 +62,13 @@ if(isset($_POST["submit"])){
     $tekst = $_POST["tekst_innleg"];
     $sql = "INSERT INTO innlegg (tekst, idbruker, data)VALUES('$tekst','$id',now())";
 
-    if($conn)
+    if($conn->query($sql)){
+        echo "innlegg ble lagt til i databasen";
+    }else{
+        echo "feilmelding: $conn->error";
+    }
 }
+?>
 
 <div class='bilde_div'>
     <?php
